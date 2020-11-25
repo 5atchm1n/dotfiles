@@ -9,4 +9,5 @@ https://github.com/preservim/nerdtree
 https://github.com/ajh17/Spacegray.vim
 
 .vimrc is my configuration file for VIM
+
 .zshrc is the aliases and settings for OH-MY-ZSH
