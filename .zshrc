@@ -106,5 +106,9 @@ alias piscine="cd ~/Documents/Projects/Piscine_2020"
 alias norm="~/.norminette/norminette.rb"
 alias vimrc="vim ~/.vimrc"
 #42 Header Settings for VIM
-USER="*******"
+
 MAIL="*******@*****.42.fr"
+export MAIL
+USER="*******"
+export USER
+
