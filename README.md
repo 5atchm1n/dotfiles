@@ -1,8 +1,11 @@
 # BASIC SETUP
 
 ### pre-requisites
+
 *UNIX like OS*
-*zsh -- 5.0.8 and newer --* [INSTALL ZSH]https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+
+*zsh -- 5.0.8 and newer --* [INSTALL ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+
 *VIM 8+*
 
 These are the basic packages/plugins you need in order to make best use of my dotfiles !!
