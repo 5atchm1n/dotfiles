@@ -24,17 +24,18 @@ Or just trust me and run the following commands  -- **at your own risk** *xD*
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+installs ohmyzsh
 ```
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
-```
-```
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 ```
+installs NERDTREE -- file browser for your VIM
 ```
 git clone git://github.com/ajh17/Spacegray.vim ~/.vim/pack/vendor/start/Spacegray
 ```
+installs Spacegray - VIM theme
 
-These are my VIM and OH-MY-ZSH config files 
+# These are my VIM and OH-MY-ZSH config files 
 
 .vimrc is my configuration file for VIM
 
