@@ -1,3 +1,5 @@
+<h1> Basic Setup for Vim and ZSH </h1>
+
 These are my VIM and OH-MY-ZSH config files
 
 These are the basic packages/plugins you need in order to make best use of my dotfiles !!
