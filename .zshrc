@@ -107,4 +107,4 @@ alias norm="~/.norminette/norminette.rb"
 alias vimrc="vim ~/.vimrc"
 #42 Header Settings for VIM
 USER="*******"
-MAIL="*******@student.42.fr"
+MAIL="*******@*****.42.fr"
