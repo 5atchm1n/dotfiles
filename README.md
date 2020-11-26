@@ -1,21 +1,23 @@
 
 ### PRE-REQUISITES
 
-*UNIX like OS*
+- *UNIX like OS*
 
-*zsh -- 5.0.8 and newer --* [INSTALL ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+- *zsh -- 5.0.8 and newer --* 
 
-*VIM 8+*
+- *VIM 8+*
+
+[INSTALL ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+
+[INSTALL VIM 8+](https://www.vim.org/download.php#unix)
 
 # BASIC SETUP
 
 These are the basic packages/plugins you need in order to make best use of my dotfiles !!
 
-https://github.com/ohmyzsh/ohmyzsh  
-
-https://github.com/preservim/nerdtree
-
-https://github.com/ajh17/Spacegray.vim
+[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+[NERDTree](https://github.com/preservim/nerdtree)
+[Spacegray](https://github.com/ajh17/Spacegray.vim)
 
 *you can full custom your setup by reading all that doc and the [VIM DOC](https://www.vim.org/docs.php)*
 
