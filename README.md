@@ -1,4 +1,4 @@
-<h1>BASIC SETUP 
+<h1>BASIC SETUP</h1>
 
 These are the basic packages/plugins you need in order to make best use of my dotfiles !!
 
