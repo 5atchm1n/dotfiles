@@ -16,9 +16,9 @@ https://github.com/preservim/nerdtree
 
 https://github.com/ajh17/Spacegray.vim
 
-you can full custom your setup by reading all that doc and the https://www.vim.org/docs.php[vim doc]
+*you can full custom your setup by reading all that doc and the [VIM DOC](https://www.vim.org/docs.php)*
 
-Or just trust me and run the following commands  -- at your own risk 
+Or just trust me and run the following commands  -- **at your own risk** xD 
 
 Basic Setup for Vim and ZSH
 ```
