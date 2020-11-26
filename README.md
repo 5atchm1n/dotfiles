@@ -18,11 +18,20 @@ https://github.com/ajh17/Spacegray.vim
 
 *you can full custom your setup by reading all that doc and the [VIM DOC](https://www.vim.org/docs.php)*
 
-Or just trust me and run the following commands  -- **at your own risk** xD 
+Or just trust me and run the following commands  -- **at your own risk** *xD* 
 
-Basic Setup for Vim and ZSH
+## Basic Setup for Vim and ZSH
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+```
+git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+```
+```
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+```
+```
+git clone git://github.com/ajh17/Spacegray.vim ~/.vim/pack/vendor/start/Spacegray
 ```
 
 These are my VIM and OH-MY-ZSH config files 
