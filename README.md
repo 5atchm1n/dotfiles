@@ -53,7 +53,10 @@ feel free to read google and find more stuff you like.
 
 ### .ZSHRC
 
-**.zshrc** is the aliases and settings I like to use for OH-MY-ZSH *go to the end of the doc* and do things like get to a file or folder qickly, sort my ls -l command. **use this file as inspiration I dont suggest you copy it !!!** at all
+**.zshrc** is the aliases and settings I like to use for OH-MY-ZSH *go to the end of the doc* and do things like get to a file or folder qickly,
+sort my ls -l command. 
+**use this file as inspiration I dont suggest you copy it !!!**
+
 ### C.VIM
 
 **c.vim** is a syntax file
