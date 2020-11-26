@@ -54,6 +54,6 @@ so i can get to different files or folders quickly or commands i feel i type all
 
 **c.vim** is a syntax file -- add it to this location (**mkdir** if it doesnt exist!!) **~/.vim/syntax/c.vim**
 
-to highlight struct types according to the norm of Ecole 42 **this file could definately be made to highlight the f_ format that we use for functions** I havent done it because i am still coding the libft :P but definitely will do it as soon as libft is *set as finish* !! 
+to highlight struct types according to the norm of Ecole 42 **this file could definately be made to highlight the ft_ format that we use for functions** I havent done it because i am still coding the libft :P but definitely will do it as soon as libft is *set as finish* !! 
 
 At some point I should make a script to install and add all this stuff - probably when 42 re-opens :) --*maybe you can do it*
