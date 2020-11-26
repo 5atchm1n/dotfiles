@@ -39,13 +39,17 @@ installs Spacegray - VIM theme
 
 **each file is commented so you get what each command does !!**
 
-.vimrc is my configuration file for VIM
+**.vimrc** is my configuration file for VIM
 
-.zshrc is the aliases and settings for OH-MY-ZSH
+the first block of settings are globally accepted as being "the best" -- the rest is just my personal taste
+feel free to read google and find more stuff you like.
+
+**.zshrc** is the aliases and settings I like to use for OH-MY-ZSH *go to the end of the doc*
+so i can get to different files or folders quickly or commands i feel i type all the time
 
 *this last one is probably not necessary but I think its cool af*
 
-c.vim is a syntax file to highlight struct types according to the norm of Ecole 42
+c.vim is a syntax file to highlight struct types according to the norm of Ecole 42 *this file could definately be made to highlight ft_ that we have to code* I havent done it because i am still coding the libft :P but definitely will do it as soon as libft is the only lib we can use !! 
 ~/.vim/syntax/c.vim
 
-At some point I should make a script to install and add all this stuff :)
+At some point I should make a script to install and add all this stuff :) --*maybe you can do it*
