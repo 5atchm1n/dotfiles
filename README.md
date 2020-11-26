@@ -1,9 +1,9 @@
-<h1>BASIC SETUP</h1>
+#BASIC SETUP</h1>
 
-<h3><i>pre-requisites</i></h3>
-<i>UNIX like OS</i><br>
-<i>zsh -- 5.0.8 and newer -- <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH">INSTALL ZSH</a></i><br>
-<i>VIM 8+</i><br>
+###pre-requisites
+*UNIX like OS*
+*zsh -- 5.0.8 and newer -- https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH[INSTALL ZSH]
+VIM 8+
 
 These are the basic packages/plugins you need in order to make best use of my dotfiles !!
 
@@ -13,7 +13,7 @@ https://github.com/preservim/nerdtree
 
 https://github.com/ajh17/Spacegray.vim
 
-<i>--you can full custom your setup by reading all that doc and the <a href="https://www.vim.org/docs.php">vim doc</a> :)
+you can full custom your setup by reading all that doc and the https://www.vim.org/docs.php[vim doc]
 
 Or just trust me and run the following commands <i><b> -- at your own risk </b></i>
 
