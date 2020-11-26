@@ -14,3 +14,6 @@ https://github.com/ajh17/Spacegray.vim
 
 c.vim is a syntax file to highlight types according to the norm of Ecole 42
 ~/.vim/syntax/c.vim
+
+
+At some point I should make a script to install and add all this stuff :)
