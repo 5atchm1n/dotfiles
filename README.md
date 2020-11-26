@@ -35,7 +35,9 @@ git clone git://github.com/ajh17/Spacegray.vim ~/.vim/pack/vendor/start/Spacegra
 ```
 installs Spacegray - VIM theme
 
-# These are my VIM and OH-MY-ZSH config files 
+# VIM and OH-MY-ZSH config files
+
+**each file is commented so you get what each command does !!**
 
 .vimrc is my configuration file for VIM
 
