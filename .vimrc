@@ -47,7 +47,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 " map Ctrl-N to toggle NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
-" auto load NERDTREE when starting vim with no file/folder
+" auto load NERDTREE when starting vim with no file/folder ie just typing "vim" 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
