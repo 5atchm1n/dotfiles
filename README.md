@@ -1,6 +1,6 @@
 # BASIC SETUP
 
-### pre-requisites
+### PRE-REQUISITES
 
 *UNIX like OS*
 
