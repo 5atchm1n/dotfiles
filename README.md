@@ -19,7 +19,7 @@ These are the basic packages/plugins i use so you'll have to use them to use my 
 - [Spacegray](https://github.com/ajh17/Spacegray.vim)
 
 *you can full custom your setup by reading all that doc and the [VIM DOC](https://www.vim.org/docs.php)*
-
+*visual list of vim themes - [colorswat.ch](https://colorswat.ch/vim/list?cat=all)
 Or just trust me and run the following commands  -- **at your own risk** *xD* 
 
 ## Basic Setup for Vim and ZSH
