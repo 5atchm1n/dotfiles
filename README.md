@@ -15,14 +15,14 @@ https://github.com/ajh17/Spacegray.vim
 
 you can full custom your setup by reading all that doc and the https://www.vim.org/docs.php[vim doc]
 
-Or just trust me and run the following commands <i><b> -- at your own risk </b></i>
+Or just trust me and run the following commands  -- at your own risk 
 
-<h3> Basic Setup for Vim and ZSH </h3>
+Basic Setup for Vim and ZSH
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-<h3> These are my VIM and OH-MY-ZSH config files </h3>
+These are my VIM and OH-MY-ZSH config files 
 
 .vimrc is my configuration file for VIM
 
