@@ -38,17 +38,21 @@ git clone git://github.com/ajh17/Spacegray.vim ~/.vim/pack/vendor/start/Spacegra
 
 **each file is commented so you get what each command does !!**
 
+### .VIMRC
+
 **.vimrc** is my configuration file for VIM
 
 the first block of settings are globally accepted as being "the best" -- the rest is just my personal taste
 feel free to read google and find more stuff you like.
 
+### .ZSHRC
+
 **.zshrc** is the aliases and settings I like to use for OH-MY-ZSH *go to the end of the doc*
 so i can get to different files or folders quickly or commands i feel i type all the time
 
-*this last one is probably not necessary but I think its cool af*
+### C.VIM
 
-**c.vim** is a syntax file needs to be locate in this path place in this directory (**mkdir** if it doesnt exist!!) **~/.vim/syntax/c.vim**
+**c.vim** is a syntax file -- add it to this location (**mkdir** if it doesnt exist!!) **~/.vim/syntax/c.vim**
 
 to highlight struct types according to the norm of Ecole 42 **this file could definately be made to highlight the f_ format that we use for functions** I havent done it because i am still coding the libft :P but definitely will do it as soon as libft is *set as finish* !! 
 
