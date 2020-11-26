@@ -13,11 +13,10 @@
 
 # BASIC SETUP
 
-These are the basic packages/plugins you need in order to make best use of my dotfiles !!
-
-[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-[NERDTree](https://github.com/preservim/nerdtree)
-[Spacegray](https://github.com/ajh17/Spacegray.vim)
+These are the basic packages/plugins i use so you'll have to use them to use my dotfiles !!
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [NERDTree](https://github.com/preservim/nerdtree)
+- [Spacegray](https://github.com/ajh17/Spacegray.vim)
 
 *you can full custom your setup by reading all that doc and the [VIM DOC](https://www.vim.org/docs.php)*
 
@@ -54,9 +53,7 @@ feel free to read google and find more stuff you like.
 
 ### .ZSHRC
 
-**.zshrc** is the aliases and settings I like to use for OH-MY-ZSH *go to the end of the doc*
-so i can get to different files or folders quickly or commands i feel i type all the time
-
+**.zshrc** is the aliases and settings I like to use for OH-MY-ZSH *go to the end of the doc* and do things like get to a file or folder qickly, sort my ls -l command. **use this file as inspiration I dont suggest you copy it !!!** at all
 ### C.VIM
 
 **c.vim** is a syntax file
