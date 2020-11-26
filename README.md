@@ -43,6 +43,8 @@ installs Spacegray - VIM theme
 
 .zshrc is the aliases and settings for OH-MY-ZSH
 
+*this last one is probably not necessary but I think its cool af*
+
 c.vim is a syntax file to highlight struct types according to the norm of Ecole 42
 ~/.vim/syntax/c.vim
 
