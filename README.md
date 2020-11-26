@@ -21,20 +21,19 @@ https://github.com/ajh17/Spacegray.vim
 Or just trust me and run the following commands  -- **at your own risk** *xD* 
 
 ## Basic Setup for Vim and ZSH
+installs ohmyzsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-installs ohmyzsh
+installs NERDTREE -- file browser for your VIM
 ```
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 ```
-installs NERDTREE -- file browser for your VIM
+installs Spacegray - VIM theme
 ```
 git clone git://github.com/ajh17/Spacegray.vim ~/.vim/pack/vendor/start/Spacegray
 ```
-installs Spacegray - VIM theme
-
 # VIM and OH-MY-ZSH config files
 
 **each file is commented so you get what each command does !!**
