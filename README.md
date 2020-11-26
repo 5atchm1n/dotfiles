@@ -1,6 +1,6 @@
 <h1>BASIC SETUP</h1>
 
-<i><h3>pre-requisites</i></h3><br>
+<h3><i>pre-requisites</i></h3>
 <i>UNIX like OS</i><br>
 <i>zsh -- 5.0.8 and newer -- <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH">INSTALL ZSH</a></i><br>
 
