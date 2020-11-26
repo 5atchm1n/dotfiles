@@ -49,7 +49,7 @@ so i can get to different files or folders quickly or commands i feel i type all
 
 *this last one is probably not necessary but I think its cool af*
 
-c.vim is a syntax file to highlight struct types according to the norm of Ecole 42 *this file could definately be made to highlight ft_ that we have to code* I havent done it because i am still coding the libft :P but definitely will do it as soon as libft is the only lib we can use !! 
-~/.vim/syntax/c.vim
+c.vim is a syntax file to highlight struct types according to the norm of Ecole 42 **this file could definately be made to highlight the f_ format that we use for functions** I havent done it because i am still coding the libft :P but definitely will do it as soon as libft is *set as finish* !! 
+this file needs to be locate in this path place in this directory (**mkdir** if it doesnt exist!!) **~/.vim/syntax/c.vim**
 
-At some point I should make a script to install and add all this stuff :) --*maybe you can do it*
+At some point I should make a script to install and add all this stuff - probably when 42 re-opens :) --*maybe you can do it*
