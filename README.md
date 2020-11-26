@@ -4,6 +4,7 @@ https://github.com/DaiClement/42_peerClass_vim
 
 *for a pure setup* 
 
+----------------------------------------------------------
 
 ### PRE-REQUISITES
 
