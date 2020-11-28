@@ -6,7 +6,7 @@
 "    By: sshakya <marvin@42.fr>                     +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2020/11/25 15:47:44 by sshakya           #+#    #+#              "
-"    Updated: 2020/11/25 16:01:47 by sshakya          ###   ########.fr        "
+"    Updated: 2020/11/28 02:45:32 by sshakya          ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -33,7 +33,10 @@ set textwidth=80
 set colorcolumn=+1
 "highlight current line
 set cursorline
-
+"set tab to match ecole42
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 "add a line at column 81 to make sure norm 42 is respected.
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
@@ -47,7 +50,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 " map Ctrl-N to toggle NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
-" auto load NERDTREE when starting vim with no file/folder ie just typing "vim" 
+" auto load NERDTREE when starting vim with no file/folder
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
