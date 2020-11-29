@@ -72,4 +72,5 @@ mkdir -p .vim/syntax
 ```
 to highlight struct types according to the norm of Ecole 42 ( s_ and t_ )**this file could definitely be made to highlight the ft_ format that we use for functions** I havent done it because i am still coding the libft :P but definitely will do it as soon as libft is *set as finish* !! 
 
-At some point I should make a script to install and add all this stuff - probably when 42 re-opens :) --*maybe you can do it*
+### MY_STEUP.SH
+you just need to run the script --beta so read the code before you exe
