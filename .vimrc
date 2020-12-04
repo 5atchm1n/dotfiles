@@ -6,7 +6,7 @@
 "    By: sshakya <marvin@42.fr>                     +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2020/11/25 15:47:44 by sshakya           #+#    #+#              "
-"    Updated: 2020/12/04 22:53:19 by sshakya          ###   ########.fr        "
+"    Updated: 2020/12/04 23:14:08 by sshakya          ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -46,6 +46,11 @@ match ExtraWhitespace /\s\+$/
 set smartindent
 set cindent
 
+"Help file related settings
+" search down into subfolders with :find just use wildcard operator !!
+set path+=**
+" Display all matching files when tab complete
+set wildmenu
 " ++++++++++++++++++++++++++ "
 "          NERDTree          "
 " ++++++++++++++++++++++++++ "
@@ -58,6 +63,9 @@ map <C-n> :NERDTreeToggle<CR>
 " auto load NERDTREE when starting vim with no file/folder
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" Close VIM if NERDTREE is only window left
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 
 " https://colorswat.ch/vim/  -- site to see themes and colors
