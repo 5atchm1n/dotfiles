@@ -25,17 +25,37 @@ git clone https://github.com/5atchm1n/dotfiles.git
 
 ls -l
 
+if [ -d "~/.vim/pack/vendor/start/nerdtree"]
+then
+
+echo "$blue NERDTree Installed !! $reset"
+
+else
+
 echo "$blue Cloning NERDTree repo $reset"
+
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
 
 echo "$lblue helptags : NERDTree $reset"
+
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+
+fi
+
+if [ -d "~/.vim/pack/vendor/start/Spacegray"]
+then
+
+echo "$blue Spacegray Install !! $reset"
+
+else
 
 echo "$blue Cloning Spacegray Theme $reset"
 
 git clone git://github.com/ajh17/Spacegray.vim ~/.vim/pack/vendor/start/Spacegray
 
-echo "$green BASIC SETUP REPOS CLONED $reset"
+fi
+
+echo "$green BASIC SETUP - DONE $reset"
 
 if [ -e ~/.vimrc ]
 then
