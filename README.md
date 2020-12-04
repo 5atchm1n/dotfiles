@@ -76,3 +76,9 @@ highlight all the Ecole42 functions (ft_function) -- GNL stuff as well
 
 ### MY_STEUP.SH
 you just need to run the script -- **if you cant read it dont use it**
+
+### GIT.MESSAGE
+literally helps you amke normal commits -- add to root of git repo and it will be the template when you type
+```
+git commit
+```
