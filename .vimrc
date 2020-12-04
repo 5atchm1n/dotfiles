@@ -6,7 +6,7 @@
 "    By: sshakya <marvin@42.fr>                     +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2020/11/25 15:47:44 by sshakya           #+#    #+#              "
-"    Updated: 2020/11/28 02:45:32 by sshakya          ###   ########.fr        "
+"    Updated: 2020/11/29 08:10:52 by sshakya          ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -39,7 +39,12 @@ set shiftwidth=4
 set softtabstop=4
 "add a line at column 81 to make sure norm 42 is respected.
 highlight ColorColumn ctermbg=0 guibg=lightgrey
-
+"@DaiClement whitespace trick
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+"Help with tabs
+set smartindent
+set cindent
 
 " ++++++++++++++++++++++++++ "
 "          NERDTree          "
