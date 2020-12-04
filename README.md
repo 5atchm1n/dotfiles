@@ -74,7 +74,7 @@ to highlight struct types according to the norm of Ecole 42 ( s_ and t_ )
 
 highlight all the Ecole42 functions (ft_function) -- GNL stuff as well
 
-### MY_STEUP.SH
+### MY_SETUP.SH
 you just need to run the script -- **if you cant read it dont use it**
 
 ### GIT.MESSAGE
