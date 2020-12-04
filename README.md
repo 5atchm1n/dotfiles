@@ -70,7 +70,9 @@ you'll need to make a directory *syntax* in your *~/.vim* directory
 ```
 mkdir -p .vim/syntax
 ```
-to highlight struct types according to the norm of Ecole 42 ( s_ and t_ )**this file could definitely be made to highlight the ft_ format that we use for functions** I havent done it because i am still coding the libft :P but definitely will do it as soon as libft is *set as finish* !! 
+to highlight struct types according to the norm of Ecole 42 ( s_ and t_ )
+
+highlight all the Ecole42 functions (ft_function) -- GNL stuff as well
 
 ### MY_STEUP.SH
 you just need to run the script --beta so read the code before you exe -- **only works on clean installs for now !!**
