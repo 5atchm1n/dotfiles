@@ -105,12 +105,12 @@ then
 	mv ~/.vim/syntax/c.vim ~/.vim/syntax/c.vim.bak
 	echo "Done.."
 	echo "$blue Copying c.vim $reset"
-	cp ~/my_setup/dotfiles/c.vim ~/.vim/syntax
+	cp ~/my_setup/dotfiles/syntax/c.vim ~/.vim/syntax
 	echo "$green Done !"
 else
 	
 	echo "$blue Copying c.vim $reset"
-	cp ~/my_setup/dotfiles/c.vim ~/.vim/syntax
+	cp ~/my_setup/dotfiles/syntax/c.vim ~/.vim/syntax
 	echo "$green Done !"
 fi
 

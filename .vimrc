@@ -6,7 +6,7 @@
 "    By: sshakya <marvin@42.fr>                     +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2020/11/25 15:47:44 by sshakya           #+#    #+#              "
-"    Updated: 2020/12/04 23:14:08 by sshakya          ###   ########.fr        "
+"    Updated: 2020/12/07 00:14:49 by sshakya          ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -28,9 +28,9 @@ set ignorecase
 "highlights matches when searching
 set showmatch
 "sets max row width (Norme 42)
-set textwidth=80
+"set textwidth=80
 "used to highlight l81 (Norme 42)
-set colorcolumn=+1
+set colorcolumn=81
 "highlight current line
 set cursorline
 "set tab to match ecole42
