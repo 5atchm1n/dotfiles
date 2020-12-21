@@ -27,9 +27,13 @@ These are the basic packages/plugins i use so you'll have to use them to use my 
 
 *visual list of vim themes - [colorswat.ch](https://colorswat.ch/vim/list?cat=all)*
 
-Or just trust me and run the following commands  -- **at your own risk** *xD* 
+Or just trust me and run the **script**  -- **at your own risk** *xD*
 
-## Basic Setup for Vim and ZSH
+## What does the script do ?
+
+It clones the repos mentioned above, copies the dotfiles in the correct places and makes a backup of the existing files if they exist.
+
+## Manual Setup for Vim and ZSH
 create your .vim folder in your home directory
 ```
 mkdir ~/.vim
@@ -78,7 +82,7 @@ highlight all the Ecole42 functions (ft_function) -- GNL stuff as well
 you just need to run the script -- **if you cant read it dont use it**
 
 ### GIT.MESSAGE
-literally helps you amke normal commits -- add to root of git repo and it will be the template when you type
+literally helps you make normal commits -- add to root of git repo and it will be the template when you type -- **not in script**
 ```
 git commit
 ```
