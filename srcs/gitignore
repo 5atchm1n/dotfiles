@@ -1,0 +1,8 @@
+.gitignore
+.gitmessage.txt
+*.swp
+*.o
+*.a
+*.vim
+*.gch
+
