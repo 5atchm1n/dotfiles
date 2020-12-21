@@ -1,4 +1,5 @@
 
+# READ ME !!
 
 ## What does the script do ?
 
@@ -20,7 +21,7 @@ It clones the repos mentioned above, copies the dotfiles in the correct places a
 
 [INSTALL VIM 8+](https://www.vim.org/download.php#unix)
 
-# BASIC SETUP
+### BASIC SETUP
 
 These are the basic packages/plugins i use so you'll have to use them to use my dotfiles !!
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
