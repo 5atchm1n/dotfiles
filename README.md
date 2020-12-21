@@ -43,7 +43,7 @@ literally helps you make normal commits -- add to root of git repo and it will b
 git commit
 ```
 ------------------------------------------------------------------------------
-                  Manual Setup for Vim and ZSH
+## Manual Setup for Vim and ZSH
 ------------------------------------------------------------------------------
 ### PRE-REQUISITES
 
