@@ -1,25 +1,21 @@
 
-# READ ME !!
+# READ ME !! :smile:
 
 ## What does the script do ?
 
-It clones the repos mentioned above, copies the dotfiles in the correct places and makes a backup of the existing files if they exist.
+It clones the repos mentioned above, copies the dotfiles in the correct places and makes a backup of the existing files if they exist. :heavy_check_mark:
+
+If you like a more hands on approach scroll down :arrow_down:
 
 ## Manual Setup for Vim and ZSH
 
-
-
 ### PRE-REQUISITES
 
-- *UNIX like OS*
+- *UNIX like OS* - *zsh -- 5.0.8 and newer --* - *VIM 8+*
 
-- *zsh -- 5.0.8 and newer --* 
+full doc -> [INSTALL ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
-- *VIM 8+*
-
-[INSTALL ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-
-[INSTALL VIM 8+](https://www.vim.org/download.php#unix)
+full doc -> [INSTALL VIM 8+](https://www.vim.org/download.php#unix)
 
 ### BASIC SETUP
 
