@@ -1,5 +1,5 @@
 
-# READ ME !! :smile:
+# READ ME !! :heavy_check_mark:
 
 ## What does the script do ?
 
