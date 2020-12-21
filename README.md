@@ -11,7 +11,7 @@ If you like a more hands on approach scroll down :arrow_down:
 
 ### PRE-REQUISITES
 
-- *UNIX like OS* - *zsh -- 5.0.8 and newer --* - *VIM 8+*
+*UNIX like OS* && *zsh 5.0.8+* && *VIM 8+*
 
 full doc -> [INSTALL ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
