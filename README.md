@@ -7,8 +7,44 @@ It clones the repos mentioned above, copies the dotfiles in the correct places a
 
 If you like a more hands on approach scroll down :arrow_down:
 
-## Manual Setup for Vim and ZSH
+# VIM and OH-MY-ZSH config files
 
+**each file is commented so you get what each command does !!**
+
+### .VIMRC
+
+**.vimrc** is my configuration file for VIM
+
+the first block of settings are globally accepted as being "the best" -- the rest is just my personal taste
+feel free to read google and find more stuff you like.
+
+### .ZSHRC
+
+**.zshrc** is the aliases and settings I like to use for OH-MY-ZSH -- to do things like get to a file or folder qickly, sort my ls -l command. 
+**use this file as inspiration I dont suggest you copy it !!!**
+
+### C.VIM
+
+**c.vim** is a syntax file
+you'll need to make a directory *syntax* in your *~/.vim* directory
+```
+mkdir -p .vim/syntax
+```
+to highlight data types according to the norm of Ecole 42 ( s_ and t_ )
+
+highlight all the Ecole42 functions (ft_function) -- other usefull cStandard functions
+
+### MY_SETUP.SH
+you just need to run the script -- **if you cant read it dont use it**
+
+### GIT.MESSAGE
+literally helps you make normal commits -- add to root of git repo and it will be the template when you type -- **not in script**
+```
+git commit
+```
+------------------------------------------------------------------------------
+                  Manual Setup for Vim and ZSH
+------------------------------------------------------------------------------
 ### PRE-REQUISITES
 
 *UNIX like OS* && *zsh 5.0.8+* && *VIM 8+*
@@ -46,41 +82,6 @@ vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 installs Spacegray - VIM theme
 ```
 git clone git://github.com/ajh17/Spacegray.vim ~/.vim/pack/vendor/start/Spacegray
-```
-# VIM and OH-MY-ZSH config files
-
-**each file is commented so you get what each command does !!**
-
-### .VIMRC
-
-**.vimrc** is my configuration file for VIM
-
-the first block of settings are globally accepted as being "the best" -- the rest is just my personal taste
-feel free to read google and find more stuff you like.
-
-### .ZSHRC
-
-**.zshrc** is the aliases and settings I like to use for OH-MY-ZSH -- to do things like get to a file or folder qickly, sort my ls -l command. 
-**use this file as inspiration I dont suggest you copy it !!!**
-
-### C.VIM
-
-**c.vim** is a syntax file
-you'll need to make a directory *syntax* in your *~/.vim* directory
-```
-mkdir -p .vim/syntax
-```
-to highlight struct types according to the norm of Ecole 42 ( s_ and t_ )
-
-highlight all the Ecole42 functions (ft_function) -- GNL stuff as well
-
-### MY_SETUP.SH
-you just need to run the script -- **if you cant read it dont use it**
-
-### GIT.MESSAGE
-literally helps you make normal commits -- add to root of git repo and it will be the template when you type -- **not in script**
-```
-git commit
 ```
 ----------------------------------------------------------
                 EXTRA NOTES
