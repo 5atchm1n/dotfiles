@@ -64,11 +64,12 @@ then
 
 	mv ~/.vimrc ~/my_setup/.vimrc.bak
 
+	echo "$orange backed to ~/my_setup $reset"
 fi
 
 echo "$green Adding 5atchm1n .vimrc $reset"
 
-cp ~/my_setup/dotfiles/.vimrc ~/.vimrc
+cp ~/my_setup/dotfiles/srcs/.vimrc ~/.vimrc
 
 echo "$blue Setting up 5atchm1n .zshrc config $reset"
 
@@ -80,11 +81,13 @@ then
 
 	mv ~/.zshrc ~/my_setup/.zshrc.bak
 
+	echo "$orange backed to ~/my_setup $reset"
+
 fi
 
 echo "$green Adding 5atchm1n .zshrc $reset"
 
-cp ~/my_setup/dotfiles/.zshrc ~/.zshrc
+cp ~/my_setup/dotfiles/srcs/.zshrc ~/.zshrc
 
 echo "Trying to create a VIM syntax folder"
 
@@ -105,14 +108,16 @@ then
 	mv ~/.vim/syntax/c.vim ~/.vim/syntax/c.vim.bak
 	echo "Done.."
 	echo "$blue Copying c.vim $reset"
-	cp ~/my_setup/dotfiles/syntax/c.vim ~/.vim/syntax
+	cp ~/my_setup/dotfiles/srcs/c.vim ~/.vim/syntax
 	echo "$green Done !"
 else
 	
 	echo "$blue Copying c.vim $reset"
-	cp ~/my_setup/dotfiles/syntax/c.vim ~/.vim/syntax
+	cp ~/my_setup/dotfiles/srcs/c.vim ~/.vim/syntax
 	echo "$green Done !"
 fi
 
 echo "$green SETUP COMPLETED $reset"
+echo "$orange check ~/my_setup for backups $reset"
+echo "$orange you can rm ~/my_setup $reset"
 echo "$blue ENJOY $reset $green  =] $reset"
