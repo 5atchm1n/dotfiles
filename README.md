@@ -1,8 +1,12 @@
-https://github.com/DaiClement/42_peerClass_vim
 
-**peer class vimrc - Ecole42 - 11/26/2020** by @DaiClement
 
-----------------------------------------------------------
+## What does the script do ?
+
+It clones the repos mentioned above, copies the dotfiles in the correct places and makes a backup of the existing files if they exist.
+
+## Manual Setup for Vim and ZSH
+
+
 
 ### PRE-REQUISITES
 
@@ -29,11 +33,6 @@ These are the basic packages/plugins i use so you'll have to use them to use my 
 
 Or just trust me and run the **script**  -- **at your own risk** *xD*
 
-## What does the script do ?
-
-It clones the repos mentioned above, copies the dotfiles in the correct places and makes a backup of the existing files if they exist.
-
-## Manual Setup for Vim and ZSH
 create your .vim folder in your home directory
 ```
 mkdir ~/.vim
@@ -86,3 +85,12 @@ literally helps you make normal commits -- add to root of git repo and it will b
 ```
 git commit
 ```
+----------------------------------------------------------
+                EXTRA NOTES
+----------------------------------------------------------
+
+https://github.com/DaiClement/42_peerClass_vim
+
+**peer class vimrc - Ecole42 - 11/26/2020** by @DaiClement
+
+----------------------------------------------------------
