@@ -7,7 +7,7 @@ It clones the repos mentioned above, copies the dotfiles in the correct places a
 
 If you like a more hands on approach scroll down :arrow_down:
 
-# VIM and OH-MY-ZSH config files
+## VIM and OH-MY-ZSH config files
 
 **each file is commented so you get what each command does !!**
 
