@@ -5,14 +5,14 @@
 export ZSH="/home/user42/.oh-my-zsh"
 
 #42 Header Settings for VIM
-export USER="sshakya"
-export MAIL="sshakya@student.42.fr"
+export USER="myusername"
+export MAIL="mail@mymail.com"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
- CASE_SENSITIVE="true"
+# CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -86,11 +86,6 @@ cdd() {cd "$1" && ls -l --group-directories-first}
 alias clangF="clang-9 -Wall -Werror -Wextra"
 
 # Project Files
-alias Printf="cd ~/Documents/Projects/ft_printf && ls -l --group-directories-first"
-alias cub3D="cd ~/Documents/Projects/cub3D && ls -l --group-directories-first"
-alias libft="cd ~/Documents/Projects/libft && ls -l --group-directories-first"
-alias GNL=" cd ~/Documents/Projects/get_next_line && ls -l --group-directories-first"
-alias piscine="cd ~/Documents/Projects/Piscine_2020 && ls -l --group-directories-first"
-alias Projects=" cd ~/Documents/Projects && ls -l --group-directories-first"
-alias corrections=" cd ~/Documents/corrections && ls -l --group-directories-first"
-alias ft_server=" cd ~/Documents/Projects/ft_server && ls -l --group-directories-first"
+alias libft="cd ~/Documents/Projects/libft"
+alias GNL=" cd ~/Documents/Projects/get_next_line"
+alias piscine="cd ~/Documents/Projects/Piscine_2020"
