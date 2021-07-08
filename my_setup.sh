@@ -71,24 +71,6 @@ echo "$green Adding 5atchm1n .vimrc $reset"
 
 cp ~/my_setup/dotfiles/srcs/.vimrc ~/.vimrc
 
-echo "$blue Setting up 5atchm1n .zshrc config $reset"
-
-
-if [ -e ~/.zshrc ]
-then
-
-	echo "$orange Backing up current zshrc config $reset"
-
-	mv ~/.zshrc ~/my_setup/.zshrc.bak
-
-	echo "$orange backed to ~/my_setup $reset"
-
-fi
-
-echo "$green Adding 5atchm1n .zshrc $reset"
-
-cp ~/my_setup/dotfiles/srcs/.zshrc ~/.zshrc
-
 echo "Trying to create a VIM syntax folder"
 
 if [ -d ~/.vim/syntax ]
