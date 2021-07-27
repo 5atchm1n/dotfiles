@@ -99,6 +99,12 @@ else
 	echo "$green Done !"
 fi
 
+sudo apt-get install libreadline-dev
+sudo apt-get install xorg libxext-dev zlibb1g-dev
+sudo apt-get install libbsd-dev
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt remove unattended-upgrades
+
 echo "$green SETUP COMPLETED $reset"
 echo "$orange check ~/my_setup for backups $reset"
 echo "$orange you can rm ~/my_setup $reset"
